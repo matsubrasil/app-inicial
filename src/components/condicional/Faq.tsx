@@ -5,7 +5,6 @@ export function Faq() {
   const [ativo, setAtivo] = useState<number>(0);
 
   function alternarVisibilidade(indice: number) {
-    console.log("aqui", indice);
     if (indice === ativo) {
       setAtivo(-1);
     } else {

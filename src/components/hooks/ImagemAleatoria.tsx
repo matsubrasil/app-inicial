@@ -12,7 +12,6 @@ export function ImagemAleatoria() {
         className="bg-blue-600 px-4 rounded-md py-2"
         onClick={() => {
           setPesquisa(valor);
-          console.log(pesquisa);
         }}
       >
         {valor}
